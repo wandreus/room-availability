@@ -1,8 +1,0 @@
-import Header from '.'
-
-export default {
-  title: 'Header',
-  component: Header
-}
-
-export const Default = () => <Header />

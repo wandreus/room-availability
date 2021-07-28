@@ -13,10 +13,19 @@ export const Wrapper = styled.div`
       display: block;
       border: 1px solid white;
       border-radius: 5px;
+      position: relative;
 
       &--active {
         background: #786cd9;
         color: white;
+
+        abbr {
+          color: #fff !important;
+        }
+
+        > div > span {
+          background: #ff00b4;
+        }
       }
 
       abbr {
@@ -59,5 +68,22 @@ export const Wrapper = styled.div`
       text-transform: uppercase;
       padding: 5px 0;
     }
+  }
+`
+
+export const Disclamer = styled.div`
+  position: absolute;
+  left: 2px;
+  bottom: 0;
+  right: 2px;
+
+  span {
+    font-size: 11px;
+    padding: 3px;
+    background: #786bd9;
+    color: #fff;
+    border-radius: 3px;
+    margin-bottom: 2px;
+    display: block;
   }
 `

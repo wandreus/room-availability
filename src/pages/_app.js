@@ -8,7 +8,7 @@ function App({ Component, pageProps }) {
   return (
     <ThemeProvider theme={theme}>
       <Head>
-        <title>Studio availability</title>
+        <title>Disponibilidade dos Studios</title>
         <link rel="shortcut icon" href="/img/tuddu-logo.ico" />
         <link rel="apple-touch-icon" href="/img/tuddu-logo.ico" />
         <link rel="manifest" href="/manifest.json" />
