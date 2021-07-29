@@ -85,11 +85,9 @@ export const DateAndTime = styled.ul`
 
     span {
       font-weight: 200;
-      width: 51%;
+      width: 100%;
       display: block;
       margin-top: 5px;
-      padding-top: 5px;
-      border-top: 1px solid #ccc;
 
       &:nth-child(2) {
         border: none;
